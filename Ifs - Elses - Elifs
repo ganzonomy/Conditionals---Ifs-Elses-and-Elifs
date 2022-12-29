@@ -1,0 +1,42 @@
+## Here you will see my first programs in Python using Conditional Tests!
+
+age = 23
+if age >= 21:
+    print("Have a Drink On Me!")
+elif (age >= 18) and (age < 21):
+    print ("Come in, but NO DRINKING")
+else:
+    print ("Go Home and Have a Glass of Almond Milk")
+    
+Have a Drink On Me!
+
+## I know this is a very simple program, but it is growth from simply writing out variables.  Let's make another one!
+
+Album = "Red"
+Year = 1974
+if (Album == "Red") and (Year == 1974):
+    print ("Best Album Ever by King Crimson!")
+elif (Album != "Red") and (Year == 1974):
+    print ("Maybe it's Starless and Bible Black")
+elif (Album == "Red") and (Year != 1974):
+    print ("Maybe your Music Library Needs to be fixed")
+else:
+    print("Go Straight to the Court of the Crimson King")
+    
+Best Album Ever by King Crimson!
+
+## And another program.  Also simple, but with different Variables for Album and Year.  This shows that the program tests both parameters
+before it prints out its result.
+
+Album = "THRAK"
+Year = 1995
+if (Album == "Red") and (Year == 1974):
+    print ("Best Album Ever by King Crimson!")
+elif (Album != "Red") and (Year == 1974):
+    print ("Maybe it's Starless and Bible Black")
+elif (Album == "Red") and (Year != 1974):
+    print ("Maybe your Music Library Needs to be fixed")
+else:
+    print("Go Straight to the Court of the Crimson King")
+    
+Go Straight to the Court of the Crimson King
